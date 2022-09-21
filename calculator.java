@@ -6,12 +6,12 @@ public class Calculator {
       double ans;
       char op;
       Scanner reader = new Scanner(System.in);
-			System.out.print("Enter nama kamuu: ");
+			System.out.print("Enter Your Name: ");
       String name = reader.nextLine();
-      System.out.print("Enter kedua angka (contoh:2 10): ");
+      System.out.print("Enter Both Numbers (example:2 10): ");
       num1 = reader.nextDouble();
       num2 = reader.nextDouble();
-      System.out.print("\nEnter operator (  +  -  *  /  ): ");
+      System.out.print("\nEnter operator (  +  -  *  /  %  ): ");
       op = reader.next().charAt(0);
       switch(op) {
          case '+': ans = num1 + num2;
@@ -22,7 +22,7 @@ public class Calculator {
             break;
          case '/': ans = num1 / num2;
             break;
-      default: System.out.printf("Error! Operator tidak tepat!");
+      default: System.out.printf("Error! Operator Not Right!");
          return;
       }
       System.out.println("\n///// " + name);

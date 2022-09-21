@@ -20,8 +20,8 @@ Simple way:
 
 ```
 ➢ java calculator.java
-Enter nama kamuu: Ravi
-Enter kedua angka (contoh:2 10): 10 5
+Enter Your Name: Ravi
+Enter both numbers (example:2 10): 10 5
 
 Enter operator (  +  -  *  /  ): /
 
